@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Learning TestNG">
+	<test name="learning">
+	<parameter name="FirstNameValue" value="korede"></parameter>
+	<parameter name="LastNameValue" value="olalere"></parameter> 
+		<classes>
+			<class name="module5.NewTest22"></class>
+		</classes>
+	</test>
+	<test name="learning1">
+	<parameter name="FirstNameValue" value="onimisi"></parameter>
+	<parameter name="LastNameValue" value="mustafa"></parameter> 
+		<classes>
+			<class name="module5.NewTest22"></class>
+		</classes>
+	</test>
+	<test name="learning2">
+	<parameter name="FirstNameValue" value="ariyo"></parameter>
+	<parameter name="LastNameValue" value="gabon"></parameter> 
+		<classes>
+			<class name="module5.NewTest22"></class>
+		</classes>
+	</test>
+	<test name="learning3">
+	<parameter name="FirstNameValue" value="chizoba"></parameter>
+	<parameter name="LastNameValue" value="obi"></parameter> 
+		<classes>
+			<class name="module5.NewTest22"></class>
+		</classes>
+	</test>
+</suite>

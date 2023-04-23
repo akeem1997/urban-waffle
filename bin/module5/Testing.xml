@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Learning TestNG">
+	<test name="priority">
+		<classes>
+			<class name="module5.NewTest"></class> 
+		</classes>
+	</test>
+</suite>

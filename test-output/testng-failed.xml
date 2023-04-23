@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Learning TestNG]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Edge(failed)">
+    <parameter name="lastNameValue" value="olalere"/>
+    <parameter name="firstNameValue" value="korede"/>
+    <parameter name="broswerNameValue" value="Edge"/>
+    <classes>
+      <class name="module5.NewTest23">
+        <methods>
+          <include name="closeSignup"/>
+          <include name="contregis"/>
+        </methods>
+      </class> <!-- module5.NewTest23 -->
+    </classes>
+  </test> <!-- Edge(failed) -->
+  <test thread-count="5" parallel="tests" name="Firefox(failed)">
+    <parameter name="lastNameValue" value="olalere"/>
+    <parameter name="firstNameValue" value="korede"/>
+    <parameter name="broswerNameValue" value="Firefox"/>
+    <classes>
+      <class name="module5.NewTest23">
+        <methods>
+          <include name="closeSignup"/>
+          <include name="contregis"/>
+        </methods>
+      </class> <!-- module5.NewTest23 -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+</suite> <!-- Failed suite [Learning TestNG] -->

@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Learning TestNG">
+	<test name="priority">
+	<parameter name="FirstNameValue" value="Korede"></parameter>
+	<parameter name="LastNameValue" value="Olalere"></parameter>
+		<classes>
+			<class name="module5.NewTest22"></class> 
+		</classes>
+	</test>
+	<test name="priority2">
+	<parameter name="FirstNameValue" value="ab"></parameter>
+	<parameter name="LastNameValue" value="dan"></parameter>
+		<classes>
+			<class name="module5.NewTest22"></class> 
+		</classes>
+	</test>
+</suite>
